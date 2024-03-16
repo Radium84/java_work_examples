@@ -10,6 +10,9 @@ import org.springframework.stereotype.Service;
 
 import static org.springframework.ldap.query.LdapQueryBuilder.query;
 
+/**
+ *  Пример работы по LDAP протоколу
+ */
 @Service
 public class LdapProcessingService {
     protected LdapTemplate ldapTemplate;

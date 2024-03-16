@@ -1,5 +1,7 @@
 package realwork;
-
+/**
+ * Пример написания контрактного теста на Pact + Kotlin
+ */
 open class TestDataUsersResponse {
         fun createAllFieldUser(): DslPart {
         return newJsonBody { o ->

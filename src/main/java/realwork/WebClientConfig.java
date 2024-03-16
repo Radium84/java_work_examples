@@ -24,6 +24,9 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
+/**
+ * Пример конфигурирования mTls для  reactive.function.client.WebClient
+ */
 @Component
 public class WebClientConfig {
     @Value("${server.ssl.trust-store}")

@@ -10,7 +10,9 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.client.HttpStatusCodeException;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.reactive.function.client.WebClient;
-
+/**
+ * Пример реализации сервиса для модификации ролей объекта с использованием reactive.function.client.WebClient
+ */
 import java.util.function.Function;
 @Slf4j
 @Service

@@ -14,6 +14,9 @@ import java.io.StringReader;
 import java.util.*;
 import java.util.stream.Collectors;
 
+/**
+ * Пример разбора сложного Xml и создания на его основы структуры данных
+ */
 @Component
 @Slf4j
 public class ExtractDataFromXml {
