@@ -1,10 +1,20 @@
-package algorithm;
+package algorithm.weekone;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.math.BigInteger;
 import java.util.Scanner;
 
+/**
+ * k
+ *  друзей организовали стартап по производству укулеле для кошек. На сегодняшний день прибыль составила
+ * n
+ *  рублей. Вы, как главный бухгалтер компании, хотите в каждый из ближайших
+ * d
+ *  дней приписывать по одной цифре в конец числа, выражающего прибыль. При этом в каждый из дней прибыль должна делиться на
+ * k
+ * .
+ */
 public class E {
     void method() {
         // Замена System.in на чтение из файла для соответствия предыдущему запросу
